@@ -25,7 +25,7 @@ app.use(bodyParser.json())
 
 
 app.get('/',(req,res)=>{
-    res.send('This is the Express App code')
+    res.send('This is from Express App code------>(Ganesh Aguru)')
 })
 //list of appliances
 app.get('/appliances',(req,res)=>{
